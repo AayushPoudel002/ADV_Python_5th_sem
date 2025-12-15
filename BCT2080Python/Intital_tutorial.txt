@@ -1,0 +1,2 @@
+create virtual env--> python -m venv Fodlder_name,,,,for now bctpython
+activate the environment--> cd scripts and activate 
