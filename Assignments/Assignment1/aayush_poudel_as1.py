@@ -38,5 +38,5 @@ sentence = input("ENter a long sentence more than 5 words:")
 "I" "am" "Aayush" "and" "I" "am" "20" "yrs" "old"
 print(sentence)
 words = sentence.split() #words store the splitted words from the sentence
-five_words = " ".join(words[:5])
+five_words = " ".join(words[:5])#joins the first five words where words[:5] extracts first five words where : indicates from start to index 5 (not inclusive)
 print(five_words)
