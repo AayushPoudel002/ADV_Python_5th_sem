@@ -37,6 +37,6 @@ sentence = input("ENter a long sentence more than 5 words:")
 "I am Aayush and I am 20 yeard old"
 "I" "am" "Aayush" "and" "I" "am" "20" "yrs" "old"
 print(sentence)
-words = sentence.split()
+words = sentence.split() #words store the splitted words from the sentence
 five_words = " ".join(words[:5])
 print(five_words)
